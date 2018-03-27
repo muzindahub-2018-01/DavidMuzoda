@@ -42,6 +42,9 @@ def get_letter_grade(score):
         return "D"
     else:
         return "F"
+
+print("The grades for Dee, Mark and Arthur respectively are as follows: ")
+  
 print(get_letter_grade(get_average(Dee)))
 
 print(get_letter_grade(get_average(Mark)))
